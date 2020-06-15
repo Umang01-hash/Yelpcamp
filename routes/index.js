@@ -10,6 +10,11 @@ router.get("/",function(req,res){
 
 });
 
+router.get("/about",function(req,res){
+    res.render("about");
+
+});
+
 
 
 //AUTH ROUTES
@@ -66,7 +71,7 @@ router.post("/login", passport.authenticate("local",
 //LOGOUT routes
 router.get("/logout",function(req,res){
     req.logout();
-    // req.flash("success" , "Logged you out");
+    req.flash("success" , "Logged you out");
     res.redirect("/campgrounds");
 });
 
