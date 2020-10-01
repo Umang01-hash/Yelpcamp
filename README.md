@@ -1,21 +1,21 @@
 # Yelpcamp
 
-YelpCamp is a website where users can create and review campgrounds. In order to review or create a campground, you must have an account. This project was part of Colt Steele's web dev course on udemy.
+YelpCamp is a website where users can create and review campgrounds. In order to review or create a campground, you must have an account. This project was part of Colt Steele's web dev course on Udemy.
 
 ## Build :
 
-This project was Built on a MongoDB/Express/Node stack, utilizing RESTful architecture with the Bootstrap 4 CSS framework for styling , Passport.js was used to handle authentication.
+This project was built on a MongoDB/Express/Node stack, utilizing RESTful architecture with the Bootstrap 4 CSS framework for styling , Passport.js was used to handle authentication.
 The app performs CRUD operations for users, the campground and the comments. These pieces are referenced within the database through various associations. Actionable commands are displayed dynamically on the site (edit/delete) for campground and comments, depending on a user’s authorization/ownership. Flash messages handle error and success messages to provide the visitor with feedback.
 
 ## Features :
 
 ### 1. Authentication
  
-  a) User signup with username, password and invitation code
+  a) User has to signup with username, password and invitation code
 
-  b) User login with username and password
+  b) User can login with username and password
 
-  c) Admin login with admin username and password
+  c) Admin has to login with admin username and password
   
 ### 2. Authorization
   
